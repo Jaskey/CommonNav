@@ -1,0 +1,58 @@
+/* START: Page navigator style */
+.module-nav {
+    width: 120px;
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.module-nav ul.directory {
+    width: 100%;
+    padding: 0 0 10px 0;
+    margin: 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.module-nav ul.directory li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.module-nav ul.directory li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'microsoft yahei';
+    color: #666;
+    cursor: pointer;
+}
+
+.module-nav ul.directory li a.current {
+    color: #4ac1fa;
+}
+
+.module-nav div.backtop {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: 'microsoft yahei';
+    color: #666;
+    text-align: center;
+}
+
+.module-nav div.backtop span {
+    cursor: pointer;
+}
+
+/* END: Page navigator style */
